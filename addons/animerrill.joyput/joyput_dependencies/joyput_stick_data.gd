@@ -51,6 +51,11 @@ var up := 0.0 # Negative horizontal axis input
 var down := 0.0 # Positive horizontal axis input
 
 
+# TODO: It might be helpful to have an option where all the values have a
+# getter function, and the end user can decide whether to only calculate things
+# `on_query` or something. The only thing that would be definitely set are the
+# raw left, right, up, down values because those are necessary for accurate
+# calculations of the other properties.
 func calculate_stick_data():
 	# Discard input that falls under the inner deadzone (minimum values).
 	if left < inner_deadzone:

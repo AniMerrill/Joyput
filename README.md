@@ -13,7 +13,7 @@ TODO: Add full synopsis later.
 
 Joyput v0.1 is intended for use in Godot 3.2.
 
-As far as I know, installing this addon should be as simple as putting the root folder of this repository (`animerrill.joyput`) into `res://addons` within your project. The plugin can then be activated from Project Settings. Eventually though, I will add more thorough installation instructions for different skill levels once I have time to get the project to a more stable release.
+As far as I know, installing this addon should be as simple as putting the root folder of this add on (`animerrill.joyput`) into `res://addons` within your project. The plugin can then be activated from Project Settings. Eventually though, I will add more thorough installation instructions for different skill levels once I have time to get the project to a more stable release.
 
 ## Documentation
 
@@ -29,3 +29,4 @@ TODO: Add full documentation later.
 * Beyond
     * Potentially add in editor GUI (and config file standard) to instantiating mappings when the game launches.
     * Add easy remapping per device profile.
+    * Eventually port to a GDNative version for better performance.
